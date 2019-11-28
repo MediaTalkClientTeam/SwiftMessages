@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import QuartzCore
 
 extension CALayer {
     func findAnimation(forKeyPath keyPath: String) -> CABasicAnimation? {
